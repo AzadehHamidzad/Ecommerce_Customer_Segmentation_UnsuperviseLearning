@@ -120,6 +120,21 @@ The one disputed customer has a small difference in distance to the two K-Means 
 
 **Interpretation:** Cross-algorithm agreement supports consistency **within the chosen feature space**. Because the algorithms use the same selected variables, it is not independent evidence that the segments are naturally occurring, causally meaningful, or ready for operational deployment.
 
+## Key Visualizations
+
+### 1. DBSCAN Customer Segmentation
+![DBSCAN Customer Segmentation](figures/dbscan_customer_segmentation_model_b.png)
+
+### 2. DBSCAN Parameter Stability
+![DBSCAN Cluster Stability](figures/dbscan_cluster_stability_model_b.png)
+
+### 3. Hierarchical Clustering: Linkage Comparison
+![Hierarchical Clustering Dendrograms](figures/hac_linkage_comparison_dendrograms.png)
+
+### 4. Customer Behavioral Profiles
+![Ward Customer Cluster Profiles](figures/ward_customer_cluster_profiles.png)
+
+
 ## Business Implications
 
 **Measure engagement and purchasing separately.** Browsing duration and interaction rates provide useful behavioral signals, but they should not substitute for observed purchasing metrics.
